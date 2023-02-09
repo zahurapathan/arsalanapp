@@ -15,7 +15,7 @@ export const Card3 = () => {
               <CardContent>
                                <img src={item.image} alt="" width={300} height={300} />
               </CardContent>
-                  <h1><Button variant="contained" color="success">{item.price}</Button></h1>
+                  <h1><Button variant="contained" color="error">{item.price}</Button></h1>
             </Card>
           </Grid>
         );
