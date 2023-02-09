@@ -5,9 +5,9 @@ export const MaterialForm = () => {
   return (
     <div className='class1'>
         <Grid container>
-            <Grid item xs={4}><TextField label="First Name"/></Grid>
+            <Grid item xs={4}><TextField label=" Name"/></Grid>
              
-            <Grid item xs={4}><TextField label="Last Name"/> </Grid>
+            <Grid item xs={4}><TextField label=" Last Name"/> </Grid>
             
 
             <Grid item xs={4}><TextField label="Email ID"/></Grid>
