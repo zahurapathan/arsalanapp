@@ -11,7 +11,6 @@ export const Card3 = () => {
           <Grid item xs={3}>
             <Card>
                <h4>{item.title}</h4>
-
               <CardContent>
                                <img src={item.image} alt="" width={300} height={300} />
               </CardContent>
