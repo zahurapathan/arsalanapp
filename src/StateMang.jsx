@@ -7,7 +7,7 @@ const[data1,setData1]=useState("")
 
 const[data2,setData2]=useState("")
 
-const[data3,setData3]=useState("")
+const[data3,setData3]=useState(" ")
 const[data4,setData4]=useState("")
 const[data5,setData5]=useState("")
 
@@ -45,7 +45,7 @@ const[data5,setData5]=useState("")
 {/* <button onClick={()=>setData("click karna par ye text aata hai ")}>Click and see Magic</button> */}
 <h1>First Name:{data}</h1>
 <h1>Last Name:{data1}</h1>
-<h1> Father Name {data2}</h1>
+<h1> Your Father Name {data2}</h1>
 <h1>City :{data3}</h1>
 <h1> Mobile No:{data4}</h1>
 <h1>Email :{data5}</h1>
